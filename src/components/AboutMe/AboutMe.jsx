@@ -3,7 +3,7 @@ import React from "react";
 import SectionTitle from "../SectionTitle";
 
 import HeroImg from "../../assets/image/hero.jpg";
-import Anime from "../../assets/image/anime-smoke.gif";
+import Me from "../../assets/image/me.gif";
 
 const AboutMe = () => {
     return (
@@ -17,7 +17,7 @@ const AboutMe = () => {
                 <a className="blog text-slate-900 dark:text-slate-200 underline pb-4 cursor-pointer" href="mailto:Simunan002@gmail.com">Simunan002@gmail.com</a>
             </div>
             <img 
-                src={Anime} 
+                src={Me} 
                 alt="Me" 
                 className="md:w-6/12 object-cover rounded-xl"
             />

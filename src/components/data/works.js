@@ -5,7 +5,7 @@ import SushiG from '../../assets/image/sushig.png'
 
 export const works = [ 
     {
-        title: "TechHub-Blog",
+        title: "Disney Clone",
         imgUrl: Disney,
         tech: 
             [
@@ -13,27 +13,27 @@ export const works = [
                 "TailwindCSS",
                 "TDMB API"
             ],
-        workUrl: 'https://github.com/ShaifArfan/techHub-blog',
+        workUrl: 'https://disneypluscloneeee.netlify.app/',
     },
     {
-        title: "Shaif'f Cuisine",
+        title: "Nike Landing's Page",
         imgUrl: Nike,
         tech: 
             [
                 "React JS",
                 "TailwindCSS",
             ],
-        workUrl: "",
+        workUrl: "https://nikeclonee.netlify.app/",
         },
     {
-        title: "Ayan's Portfolio Website",
+        title: "Sushi G",
         imgUrl: SushiG,
         tech: 
             [
                 "React JS",
                 "TailwindCSS"
             ],
-        workUrl: 'https://github.com/ShaifArfan/AYANs-portfolio',
+        workUrl: 'https://sushig.netlify.app/',
     },
     {
         title: "Tesla",
@@ -43,6 +43,6 @@ export const works = [
                 "React JS",
                 "StyledComponents"
             ],
-        workUrl: 'https://github.com/ShaifArfan/artistic',
+        workUrl: 'https://tesla-clone-nan.netlify.app/',
     },
 ] 
