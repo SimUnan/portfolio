@@ -1,21 +1,39 @@
 import { MdWeb } from 'react-icons/md'
-import { FaHandHoldingHeart } from 'react-icons/fa'
+import { FaServer } from 'react-icons/fa'
 import { VscCode } from 'react-icons/vsc'
+import { BiPaint } from 'react-icons/bi'
+import { BsDatabase } from 'react-icons/bs'
+import { SiNextdotjs, SiTailwindcss, SiStyledcomponents } from 'react-icons/si'
 
 export const services = [
     {
-        title: "Web Development Skills",
-        icon: VscCode,
-        description: "HTML, CSS, ReactJS, TailwindCSS, NodeJs, ExpressJs, MongoDB",
+        title: "Frontend Development",
+        icon: SiNextdotjs,
+        description: "Next.js, React.js, Tailwind CSS, Styled Components, Ant Design",
+    },
+    {
+        title: "Backend Development",
+        icon: FaServer,
+        description: "NestJS, Node.js, Express.js, REST APIs, Authentication",
+    },
+    {
+        title: "Database & Storage",
+        icon: BsDatabase,
+        description: "MongoDB, Mongoose, Firebase, Supabase",
     },
     {
         title: "Programming Languages",
-        icon: MdWeb,
-        description: "C, C++, Java, Javascript",
+        icon: VscCode,
+        description: "JavaScript, TypeScript, C, C++, Python",
     },
-    // {
-    //     title: "Ui Design",
-    //     icon: FaHandHoldingHeart,
-    //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio odit provident reiciendis, dolores nemo alias. Id labore ipsam vel nesciunt, ex ipsa laboriosam iste molestiae sed laudantium, reiciendis, laborum aspernatur.",
-    // },
+    {
+        title: "Web Technologies",
+        icon: MdWeb,
+        description: "HTML, CSS, SSR/SSG",
+    },
+    {
+        title: "UI Design",
+        icon: BiPaint,
+        description: "Figma",
+    },
 ]
